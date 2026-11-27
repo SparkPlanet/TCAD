@@ -1,0 +1,19 @@
+{
+  "source": "case18_pilot",
+  "case": "case18",
+  "seed": 48,
+  "threshold": 0.173115,
+  "historical_training_calls": 1024,
+  "adaptation_calls": 384,
+  "holdout_calls": 1280,
+  "verified_replay_rounds": 12,
+  "hits": 866,
+  "pf": 5.329527672048188e-05,
+  "se": 1.624632319646703e-06,
+  "fom": 0.030483607922094556,
+  "tail_ess": 481.5706412421666,
+  "estimator": "stratified_probit_control",
+  "raw_stratified_pf": 5.333655237924411e-05,
+  "independent_blocks": 16,
+  "control_nominal_mean": 5.2414314642004843e-05
+}

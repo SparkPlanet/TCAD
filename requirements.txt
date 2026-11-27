@@ -1,0 +1,5 @@
+numpy==2.0.1
+scipy==1.13.1
+torch==2.5.1
+nflows==0.14
+tqdm==4.67.3

@@ -1,0 +1,18 @@
+{
+  "pf": 5.1943643126752185e-05,
+  "se": 7.04666357468491e-07,
+  "fom": 0.01356597872330544,
+  "mean_line_control": 5.2208501608777286e-05,
+  "mean_physical_correction": -2.648584820250938e-07,
+  "pilot_bracket_rate": 0.8875,
+  "n_lines": 320,
+  "independent_pairs": 160,
+  "case": "case18",
+  "threshold": 0.173115,
+  "seed": 49,
+  "pilot_seed": 46,
+  "training": 1024,
+  "feedback": 384,
+  "physical_calls": 1280,
+  "charged_calls": 2688
+}

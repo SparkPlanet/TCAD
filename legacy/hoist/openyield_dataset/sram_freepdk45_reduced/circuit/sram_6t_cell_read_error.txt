@@ -1,0 +1,18 @@
+# name: sram_6t_cell_read_error
+# spice_dir: openyield_dataset/sram_freepdk45_reduced/sp_data/sram_6t_cell_read_error
+# active_sp: sram_6t_cell_read_error.sp
+# param_order: vth0 u0 voff
+# std: 0.05
+# measure: read_error
+# objective: max
+# source: OpenYield FreePDK45 reduced SRAM read-disturb benchmark
+
+# --- pmos_freepdk45 ---
+M4: vth0=1 u0=1 voff=1
+M5: vth0=1 u0=1 voff=1
+
+# --- nmos_freepdk45 ---
+M0: vth0=1 u0=1 voff=1
+M1: vth0=1 u0=1 voff=1
+M2: vth0=1 u0=1 voff=1
+M3: vth0=1 u0=1 voff=1

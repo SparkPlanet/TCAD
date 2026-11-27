@@ -1,0 +1,19 @@
+{
+  "source": "case1203_pilot",
+  "case": "case1203",
+  "seed": 48,
+  "threshold": 0.0001171,
+  "historical_training_calls": 2048,
+  "adaptation_calls": 384,
+  "holdout_calls": 1280,
+  "verified_replay_rounds": 12,
+  "hits": 199,
+  "pf": 5.5653124197075114e-05,
+  "se": 5.689395256190075e-06,
+  "fom": 0.10222957539711822,
+  "tail_ess": 110.18844948570106,
+  "estimator": "stratified_probit_control",
+  "raw_stratified_pf": 5.575976026099483e-05,
+  "independent_blocks": 16,
+  "control_nominal_mean": 5.464486333520311e-05
+}

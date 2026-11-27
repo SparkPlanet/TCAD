@@ -1,0 +1,93 @@
+# name: sram_6t_medium_read_error
+# spice_dir: openyield_dataset/sram_freepdk45_reduced/sp_data/sram_6t_medium_read_error
+# active_sp: sram_6t_medium_read_error.sp
+# param_order: vth0 u0 voff
+# std: 0.05
+# measure: read_error
+# objective: max
+# source: OpenYield FreePDK45 reduced SRAM read-disturb benchmark
+
+# --- pmos_freepdk45 ---
+M4: vth0=1 u0=1 voff=1
+M5: vth0=1 u0=1 voff=1
+M6: vth0=1 u0=1 voff=1
+M7: vth0=1 u0=1 voff=1
+M8: vth0=1 u0=1 voff=1
+M9: vth0=1 u0=1 voff=1
+M11: vth0=1 u0=1 voff=1
+M13: vth0=1 u0=1 voff=1
+M15: vth0=1 u0=1 voff=1
+M17: vth0=1 u0=1 voff=1
+M19: vth0=1 u0=1 voff=1
+M21: vth0=1 u0=1 voff=1
+M23: vth0=1 u0=1 voff=1
+M25: vth0=1 u0=1 voff=1
+M27: vth0=1 u0=1 voff=1
+M29: vth0=1 u0=1 voff=1
+M31: vth0=1 u0=1 voff=1
+M33: vth0=1 u0=1 voff=1
+M35: vth0=1 u0=1 voff=1
+M37: vth0=1 u0=1 voff=1
+M39: vth0=1 u0=1 voff=1
+M41: vth0=1 u0=1 voff=1
+M43: vth0=1 u0=1 voff=1
+M45: vth0=1 u0=1 voff=1
+M47: vth0=1 u0=1 voff=1
+M49: vth0=1 u0=1 voff=1
+M51: vth0=1 u0=1 voff=1
+M53: vth0=1 u0=1 voff=1
+M55: vth0=1 u0=1 voff=1
+M57: vth0=1 u0=1 voff=1
+M59: vth0=1 u0=1 voff=1
+M61: vth0=1 u0=1 voff=1
+M63: vth0=1 u0=1 voff=1
+M65: vth0=1 u0=1 voff=1
+M67: vth0=1 u0=1 voff=1
+M69: vth0=1 u0=1 voff=1
+M71: vth0=1 u0=1 voff=1
+M73: vth0=1 u0=1 voff=1
+M75: vth0=1 u0=1 voff=1
+M77: vth0=1 u0=1 voff=1
+M79: vth0=1 u0=1 voff=1
+
+# --- nmos_freepdk45 ---
+M0: vth0=1 u0=1 voff=1
+M1: vth0=1 u0=1 voff=1
+M2: vth0=1 u0=1 voff=1
+M3: vth0=1 u0=1 voff=1
+M10: vth0=1 u0=1 voff=1
+M12: vth0=1 u0=1 voff=1
+M14: vth0=1 u0=1 voff=1
+M16: vth0=1 u0=1 voff=1
+M18: vth0=1 u0=1 voff=1
+M20: vth0=1 u0=1 voff=1
+M22: vth0=1 u0=1 voff=1
+M24: vth0=1 u0=1 voff=1
+M26: vth0=1 u0=1 voff=1
+M28: vth0=1 u0=1 voff=1
+M30: vth0=1 u0=1 voff=1
+M32: vth0=1 u0=1 voff=1
+M34: vth0=1 u0=1 voff=1
+M36: vth0=1 u0=1 voff=1
+M38: vth0=1 u0=1 voff=1
+M40: vth0=1 u0=1 voff=1
+M42: vth0=1 u0=1 voff=1
+M44: vth0=1 u0=1 voff=1
+M46: vth0=1 u0=1 voff=1
+M48: vth0=1 u0=1 voff=1
+M50: vth0=1 u0=1 voff=1
+M52: vth0=1 u0=1 voff=1
+M54: vth0=1 u0=1 voff=1
+M56: vth0=1 u0=1 voff=1
+M58: vth0=1 u0=1 voff=1
+M60: vth0=1 u0=1 voff=1
+M62: vth0=1 u0=1 voff=1
+M64: vth0=1 u0=1 voff=1
+M66: vth0=1 u0=1 voff=1
+M68: vth0=1 u0=1 voff=1
+M70: vth0=1 u0=1 voff=1
+M72: vth0=1 u0=1 voff=1
+M74: vth0=1 u0=1 voff=1
+M76: vth0=1 u0=1 voff=1
+M78: vth0=1 u0=1 voff=1
+M80: vth0=1 u0=1 voff=1

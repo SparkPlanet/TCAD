@@ -1,0 +1,15 @@
+{
+  "samples": 1000000,
+  "physical_failures": 58,
+  "mc_pf": 5.8e-05,
+  "mc_se": 7.615552245241313e-06,
+  "sample_control": 5.6105408962916834e-05,
+  "exact_control": 5.2414314642004843e-05,
+  "controlled_mc_pf": 5.430890567908799e-05,
+  "controlled_mc_se": 2.7446944116263744e-06,
+  "failure_axial_range": [
+    3.7811025669072498,
+    5.040592420003765
+  ],
+  "reference_used_for_run": false
+}

@@ -1,0 +1,124 @@
+{
+  "configuration": {
+    "pilot_seed": 46,
+    "holdout_seed": 47,
+    "fixed_pilot_rounds": 12,
+    "batch": 32,
+    "candidate_pool": 8192,
+    "top_k": 32,
+    "fixed_holdout_size": 1792,
+    "target_fom": 0.1,
+    "failure_rule": "measure > threshold",
+    "baseline_source": "HOIST Tables 1 and 3 (published values)"
+  },
+  "cases": {
+    "case18": {
+      "dimension": 18,
+      "threshold": 0.173115,
+      "pilot_method": "conditional_probit",
+      "pilot_fit_details": {
+        "initial_norm": 3.0657622814178467,
+        "initial_projection": 2.9720633029937744,
+        "method": "conditional_probit",
+        "fitted": true,
+        "hits": 147,
+        "probit_intercept": -64.44123030081403,
+        "probit_slope": 16.582143072647007,
+        "proposal_median": 3.9996044816214575
+      },
+      "training": 1024,
+      "feedback": 384,
+      "holdout": 1792,
+      "new_spice": 2176,
+      "charged_calls": 3200,
+      "original_hoist_calls": 3748,
+      "cost_change_vs_hoist_pct": -14.621131270010668,
+      "mc_reference": 5.8e-05,
+      "original_hoist_pf": 5.32e-05,
+      "original_hoist_reported_abs_difference_pct": 8.28,
+      "pf": 5.145714162118682e-05,
+      "se": 9.092314843902316e-07,
+      "fom": 0.017669685018335084,
+      "signed_difference_vs_mc_pct": -11.280790308298583,
+      "hits": 1212,
+      "tail_ess": 1149.3205878607575,
+      "largest_contribution_share": 0.0031842959071300206,
+      "approx_95pct_interval": [
+        4.967504791178197e-05,
+        5.323923533059167e-05
+      ]
+    },
+    "case243": {
+      "dimension": 243,
+      "threshold": 1.085224e-05,
+      "pilot_method": "conditional_probit",
+      "pilot_fit_details": {
+        "initial_norm": 4.17526388168335,
+        "initial_projection": 3.013920307159424,
+        "method": "conditional_probit",
+        "fitted": true,
+        "hits": 227,
+        "probit_intercept": -41.90631557424953,
+        "probit_slope": 10.849011900852298,
+        "proposal_median": 3.9370922800486756
+      },
+      "training": 1024,
+      "feedback": 384,
+      "holdout": 1792,
+      "new_spice": 2176,
+      "charged_calls": 3200,
+      "original_hoist_calls": 2848,
+      "cost_change_vs_hoist_pct": 12.35955056179776,
+      "mc_reference": 6.18e-05,
+      "original_hoist_pf": 6.02e-05,
+      "original_hoist_reported_abs_difference_pct": 2.59,
+      "pf": 5.6793730887428504e-05,
+      "se": 1.4626662558007922e-06,
+      "fom": 0.025754008989125218,
+      "signed_difference_vs_mc_pct": -8.1007590818309,
+      "hits": 982,
+      "tail_ess": 819.0447123386665,
+      "largest_contribution_share": 0.009643157892429586,
+      "approx_95pct_interval": [
+        5.392690502605895e-05,
+        5.966055674879806e-05
+      ]
+    },
+    "case1203": {
+      "dimension": 1203,
+      "threshold": 0.0001171,
+      "pilot_method": "conditional_probit",
+      "pilot_fit_details": {
+        "initial_norm": 6.936505317687988,
+        "initial_projection": 2.9996986389160156,
+        "method": "conditional_probit",
+        "fitted": true,
+        "hits": 121,
+        "probit_intercept": -13.447005023823461,
+        "probit_slope": 3.3286228232437365,
+        "proposal_median": 3.5439237141198183
+      },
+      "training": 2048,
+      "feedback": 384,
+      "holdout": 1792,
+      "new_spice": 2176,
+      "charged_calls": 4224,
+      "original_hoist_calls": 5336,
+      "cost_change_vs_hoist_pct": -20.839580209895047,
+      "mc_reference": 5.238e-05,
+      "original_hoist_pf": 4.99e-05,
+      "original_hoist_reported_abs_difference_pct": 4.73,
+      "pf": 5.140864114858305e-05,
+      "se": 3.7616086334298866e-06,
+      "fom": 0.0731707461894967,
+      "signed_difference_vs_mc_pct": -1.854446069906368,
+      "hits": 272,
+      "tail_ess": 169.2331977630807,
+      "largest_contribution_share": 0.035871869650212114,
+      "approx_95pct_interval": [
+        4.403588822706047e-05,
+        5.878139407010563e-05
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "HOIST Tables 1 and 3",
+  "status": "Provisional finite-sample direct MC estimates",
+  "cases": {
+    "case18": {
+      "threshold": 0.173115,
+      "failure_rule": "measure > threshold",
+      "published_mc_pf": 5.8e-05,
+      "published_mc_calls": 1000000,
+      "estimated_binomial_mc_se": 7.615552245241313e-06,
+      "original_hoist_pf_paper_rounded": 5.32e-05,
+      "original_hoist_reported_abs_difference_pct": 8.28,
+      "original_hoist_charged_calls": 3748
+    },
+    "case243": {
+      "threshold": 1.085224e-05,
+      "failure_rule": "measure > threshold",
+      "published_mc_pf": 6.18e-05,
+      "published_mc_calls": 1280000,
+      "estimated_binomial_mc_se": 6.948256343770716e-06,
+      "original_hoist_pf_paper_rounded": 6.02e-05,
+      "original_hoist_reported_abs_difference_pct": 2.59,
+      "original_hoist_charged_calls": 2848
+    },
+    "case1203": {
+      "threshold": 0.0001171,
+      "failure_rule": "measure > threshold",
+      "published_mc_pf": 5.238e-05,
+      "published_mc_calls": 1680000,
+      "estimated_binomial_mc_se": 5.583631282149638e-06,
+      "original_hoist_pf_paper_rounded": 4.99e-05,
+      "original_hoist_reported_abs_difference_pct": 4.73,
+      "original_hoist_charged_calls": 5336
+    }
+  }
+}

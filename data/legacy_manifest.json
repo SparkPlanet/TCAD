@@ -1,0 +1,28 @@
+{
+  "cases": {
+    "case18": {
+      "key": "case18",
+      "circuit": "openyield_dataset/sram_freepdk45_reduced/circuit/sram_6t_cell_read_error.txt",
+      "train": "artifacts/experiments/hoist_paper_case18_rebuild_20260709/data/sram_6t_cell_read_error_train_1024.sdat",
+      "train_spice": 1024,
+      "ckpt": "artifacts/experiments/hoist_paper_case18_rebuild_20260709/checkpoints/sram_6t_cell_read_error_train1024_v16.pth",
+      "threshold": 0.173115
+    },
+    "case243": {
+      "key": "case243",
+      "circuit": "openyield_dataset/sram_freepdk45_reduced/circuit/sram_6t_medium_read_error.txt",
+      "train": "artifacts/experiments/sram243_ablation_train1024/data/sram_6t_medium_read_error_train_1024.sdat",
+      "train_spice": 1024,
+      "ckpt": "artifacts/experiments/sram243_ablation_train1024/data/sram_6t_medium_read_error_train1024_v16_new.pth",
+      "threshold": 1.085224e-05
+    },
+    "case1203": {
+      "key": "case1203",
+      "circuit": "openyield_dataset/sram_freepdk45_small/circuit/sram_6t_1x1_read_error.txt",
+      "train": "artifacts/data/sram_6t_1x1_read_error_std005_sigma5_train_2048.sdat",
+      "train_spice": 2048,
+      "ckpt": "artifacts/checkpoints/sram_1203_v16_2048_new.pth",
+      "threshold": 0.0001171
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "case18_pilot",
+  "case": "case18",
+  "seed": 47,
+  "threshold": 0.173115,
+  "historical_training_calls": 1024,
+  "adaptation_calls": 384,
+  "holdout_calls": 1792,
+  "verified_replay_rounds": 12,
+  "hits": 1212,
+  "pf": 5.145714162118682e-05,
+  "se": 9.092314843902316e-07,
+  "fom": 0.017669685018335084,
+  "tail_ess": 1149.3205878607575
+}
